@@ -1,0 +1,24 @@
+Task 7 Text editor
+
+    1. Using nano text editor create a file named my_bio.md
+
+/*
+
+recruit@umuzi-admin:~$ nano my_bio.md
+
+*/
+
+    2. Save the file and close the editor
+
+
+    3. Create a folder named my_files and move my_bio.md within.
+
+/*
+
+recruit@umuzi-admin:~$ mkdir my_files
+recruit@umuzi-admin:~$ mv my_bio.md my_files/
+
+*/
+
+
+

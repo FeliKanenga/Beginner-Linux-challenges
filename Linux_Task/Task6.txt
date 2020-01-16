@@ -1,0 +1,35 @@
+Task 6 Find commands
+
+   1. Write a script to find all files ending with ‘pdf’ on your computer
+
+/*
+
+recruit@umuzi-admin:~$ find -iname "*.pdf"
+./Desktop/feli.pdf
+
+*/
+
+   2. Write a second command that takes the result of the previous search and copy into a folder of your choice.
+
+/*
+
+recruit@umuzi-admin:~$ find ~/Desktop -name "*.pdf" -exec cp {} ~/Docuemts \;
+
+*/
+
+   3. Write a command to display files that where modified today.
+
+/*
+
+recruit@umuzi-admin:~$ find . -maxdepth 1 -newermt "2020-01-16"
+.
+./Documents
+./.bash_history
+./Downloads
+./Desktop
+./Docuemts
+./.config
+./.xsession-errors
+./workspace
+
+*/

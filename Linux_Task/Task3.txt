@@ -1,0 +1,59 @@
+Task 3 : Cat commands
+
+
+    1. Create 3 files namely umuzi.md, recruits.md and cohort.md. 
+
+// Answers as from the Terminal
+/*
+
+recruit@umuzi-admin:~/workspace$ touch umuzi.md recruits.md cohort.md
+
+*/
+
+    2. Fill all 3 files with contents of your choice. Maybe some nice poems about you MUB experience.
+
+/*
+recruit@umuzi-admin:~/workspace$ echo 'hi' > umuzi.md
+
+
+recruit@umuzi-admin:~/workspace$ echo 'this was' > recruits.md
+
+
+recruit@umuzi-admin:~/workspace$ echo 'fun and interesting' > cohort.md
+
+
+*/
+
+    3. Write a script that concatenates the content of umuzi.md, recruit.md, cohort.md and displays the result on the screen.
+
+/*
+
+recruit@umuzi-admin:~/workspace$ cat umuzi.md recruits.md cohort.md
+hi
+this was
+fun and interesting
+
+*/
+
+    4. Write a script that takes the content of umuzi.md, cohort.md and recruits.md to print/store the output into a new file named summary.md.
+
+/*
+
+recruit@umuzi-admin:~/workspace$ cat umuzi.md recruits.md cohort.md >> summary.md
+
+*/
+
+   5. use the command line to append the words “The End” to summary.md. Be careful not to overwrite the exiting contend
+
+/*
+
+recruit@umuzi-admin:~/workspace$ echo "The End" >> summary.md
+recruit@umuzi-admin:~/workspace$ cat summary.md
+hi
+this was
+fun and interesting
+The End
+
+*/
+
+

@@ -1,0 +1,25 @@
+Task 4 : The locate command
+
+
+    1. Write a script to help you locate a file named umuzi
+
+// Answers as from the Terminal
+/*
+
+recruit@umuzi-admin:~/workspace$ locate -n 5 umuzi
+/home/umuzi-admin
+/home/recruit/.java/fonts/11.0.2/fcinfo-1-umuzi-admin-LinuxMint-19.2-en.properties
+/home/recruit/workspace/umuzi.md
+/home/umuzi-admin/.ICEauthority
+/home/umuzi-admin/.Xauthority
+
+*/
+
+
+    2. Write a second script that will search for the same file and send the result of the search to a file named search_result.md
+
+/*
+
+recruit@umuzi-admin:~/workspace$ locate -n 5 umuzi > search_result.md
+
+*/

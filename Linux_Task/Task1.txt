@@ -1,0 +1,72 @@
+Task 1 : Basic Task
+
+1. Type in ls and press enter. What do you see? What does this mean?
+
+
+• All the folders stored in the computer's memory. Desktop, Downloads and Documents are on of the folders. ls lists all the folders in the computer's directory
+
+ 
+/*
+
+recruit@umuzi-admin:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+
+*/
+
+
+2. Type in pwd and press enter. What do you see? What does this mean?
+
+• The terminal displayed a path, /home/recruit . This means that i am currently in the recruit folder or directory
+
+/*
+
+recruit@umuzi-admin:~$ pwd
+/home/recruit
+
+*/
+
+
+3. Make a new directory called workspace then cd into your new directory
+
+/*
+
+recruit@umuzi-admin:~$ mkdir workspace
+recruit@umuzi-admin:~$ ls
+Desktop    Downloads  Pictures  Templates  workspace
+Documents  Music      Public    Videos
+recruit@umuzi-admin:~$ cd workspace
+
+*/
+
+
+
+4. Type in ls and press enter. What do you see? What does this mean?
+
+• Nothing new is printed to the console or terminal. The command ls attempted to list all that the folder workspace contains.
+
+/*
+
+recruit@umuzi-admin:~$ cd workspace
+recruit@umuzi-admin:~/workspace$ ls
+
+*/
+
+
+5. Make a new file called README.md (you can use the touch command to do this)
+
+/*
+
+recruit@umuzi-admin:~/workspace$ touch README.md
+
+*/
+
+
+6. Make a copy of README.md, name your copy CHANGELOG.md
+
+/*
+
+recruit@umuzi-admin:~/workspace$ cp README.md CHANGELOG.md
+recruit@umuzi-admin:~/workspace$ ls
+CHANGELOG.md  README.md
+
+*/

@@ -1,0 +1,67 @@
+Task 5 The locate command cont..
+
+    1. Create a file within Documents directory, add to is a file named pad.md
+
+/*
+
+recruit@umuzi-admin:~$ cd Documents
+recruit@umuzi-admin:~/Documents$ touch pad.md
+
+*/
+
+    2. change the working directory to Desktop, then create a folder and name it work
+
+/*
+
+recruit@umuzi-admin:~/Documents$ cd ~ && cd Desktop
+recruit@umuzi-admin:~/Desktop$ mkdir Work
+
+*/
+
+   3. copy pad.md to the currently working directory as pad_copy.md
+
+/*
+
+recruit@umuzi-admin:~/Desktop$ cp ~/Documents/pad.md pad_copy.md
+
+*/
+
+   4. update the database used by locate by running locate updatedb.
+
+/*
+
+recruit@umuzi-admin:~/Desktop$ locate updatedb
+/etc/updatedb.conf
+/etc/alternatives/updatedb
+/etc/alternatives/updatedb.8.gz
+/usr/bin/updatedb
+/usr/bin/updatedb.mlocate
+/usr/share/man/man5/updatedb.conf.5.gz
+/usr/share/man/man8/updatedb.8.gz
+/usr/share/man/man8/updatedb.mlocate.8.gz
+/var/lib/flatpak/runtime/org.kde.Platform/x86_64/5.11/02ede84d3591a5ea8028204d86059bffaccb778159ec53c859bbc60d9e7025e8/files/bin/updatedb
+
+*/
+
+
+
+   5. change the working directory to the previous one (cd -)
+
+/*
+
+recruit@umuzi-admin:~/Desktop$ cd ~
+recruit@umuzi-admin:~$ 
+
+*/
+
+
+
+   6. use locate to find pad_copy.md
+
+/*
+
+recruit@umuzi-admin:~/Desktop$ cd ~
+recruit@umuzi-admin:~$ 
+
+*/
+
